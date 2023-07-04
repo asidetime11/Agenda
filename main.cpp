@@ -140,7 +140,7 @@ int main()
 			std::cout << "If you need to select according to the importance of the task, input 1" << endl;
 			std::cout << "If you need to select according to the time of the task, input 2" << endl;
 			std::cout << "If you need to select according to both the time and importance of the task, input 3" << endl;
-			std::cout << "default: show all" << endl;
+			std::cout << "default: show nothing" << endl;
 
 			int option;
 			std::cin >> option;

@@ -24,6 +24,7 @@ bool TaskList::Load(const char* filename)
 	if (!read.is_open())
 	{
 		std::cout << "open failed" << endl;
+		return false;
 	}
 	else {
 		char buf[1024] = { 0 };
